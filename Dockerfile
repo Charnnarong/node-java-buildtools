@@ -4,4 +4,4 @@ RUN apt-get update \
     && apt-get clean \
     && update-ca-certificates -f \
     && yarn global add @openapitools/openapi-generator-cli \
-    && openapi-generator-cli version-manager set 5.3.1
+    && openapi-generator-cli version-manager set 5.4.0
